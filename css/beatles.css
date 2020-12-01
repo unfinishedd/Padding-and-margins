@@ -19,7 +19,7 @@ body {
     cursor: pointer;
 }
 .beatle.naam {
-    opacity: ;
+    opacity: 1;
 }
 .beatle:hover .naam {
     opacity: 1;
