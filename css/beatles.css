@@ -1,45 +1,74 @@
-body {
+body{
     margin: 0;
     padding: 0;
     background-color: gray;
     font-family: sans-serif;
-    font-size: 23px ;
+    font-size: 23px;
 }
-.container {
+.container{
     width: 1220px;
-    margin: 0 auto;
+    margin: 0px auto;
     min-height: 1220px;
-    background-image: url(/images/LetItBe_0.jpg);
+    background-image: url('../LetItBe.jpg');
     color: white;
-    padding-top: 120px;
+    padding-top: 153px;
+
+
 }
-.beatle {
-    background-color: rgba(255, 0, 0, 0.8);
+.beatle{
+    /*background-color: rgb(255, 0, 0, 0.8);*/
     width: 200px;
     cursor: pointer;
 }
-.beatle.naam {
+.beatle .naam{
+    opacity: 0;
+}
+.beatle:hover .naam{
     opacity: 1;
 }
-.beatle:hover .naam {
-    opacity: 1;
+#John{
+    margin-left: 117px;
+    padding-top: 404px;
+    padding-left: 271px;
+    padding-bottom: 10px;
+    
 }
-
-#john {
-    margin-left: 95px;
-    padding-top: 320px;
-    padding-left: 187px;
+#John .naam{
+    margin-left: 80px;
+}
+#Paul{
+    margin-left: 605px;
+    margin-top: -470px;
+    padding-right: 268px;
+    padding-top: 403px;
     padding-bottom: 10px;
 }
-#john .naam {
-    padding-left: 98px;
+#Ringo{
+    margin-top: 15px;
+    margin-left: 117px;
+    
+    padding-top: 412px;
+    padding-left: 272px;
+}
+#Ringo .naam{
+    margin-left: 90px;
+    
+}
+#George{
+    margin-top: -469px;
+    margin-left: 604px;
+    padding-left: 269px;
+    padding-top: 411px;
+       
+}
+#George .naam{
+    margin-left: -269px;
 }
 h3, p {
     margin: 0;
     padding: 0;
 }
-.naam {
-    border-left: solid 9.7px red;
-    padding-left: 9.7px;
-
+.naam{
+    border-left: solid red 9px;
+    padding-left: 9px;
 }
